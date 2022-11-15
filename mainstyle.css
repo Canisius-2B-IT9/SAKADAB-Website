@@ -1,0 +1,98 @@
+/* Type your main CSS styles here */
+
+body{
+    background-image: url(bgweb.png);
+	background-attachment: fixed;
+    background-color: #FAFAC6;
+	margin-left: 400px;
+	font-family: Sora;
+	color: #2C2A4A;
+    text-align: justify;
+	}
+	
+a{
+  background-color: #2C2A4A;
+  color: #FAFAC6;
+  padding: 5px 30px;
+  text-decoration: none;
+  }
+  
+a:hover{
+  font-weight: bold;
+  font-size: +18;
+  text-decoration: none;
+  }
+  
+a:hover.sidebar{
+    font-weight: bold;
+	font-size: +23;
+	text-decoration: none;
+	}
+
+	
+a.invis{
+    background: transparent;
+	text-decoration: none;
+    }
+	
+h2.head{
+   font-weight: bold;
+   font-family: Playfair Display;
+   font-size: +50;
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   }
+   
+div{
+  	padding-top: 10px;
+	border:2px solid #2C2A4A;
+	width:900px;
+	padding: 20px;
+	}	
+	
+
+
+div#header{
+   font-weight: bold;
+   font-family: Playfair Display;
+   Font-size: +36;
+   text-align: center;
+   border-color: transparent;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   
+}
+   
+
+   
+div#sidebar{
+	background-color:#FAFAC6;
+	width:357px;
+	height:850px;		
+	float:left;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	font-size: +20;
+	background-image: url(bgsidefoot.png);
+	}
+	
+
+	
+div#footer{
+    background-image: url(bgsidefoot.png);
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	}
+	
+html {
+  scroll-behavior: smooth;
+}
+
+img.sip{
+       width: 350;
+	   height: 240;
+	   }
